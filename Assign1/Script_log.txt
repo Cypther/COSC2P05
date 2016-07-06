@@ -1,0 +1,26 @@
+Deposit 200.0 To: 1113 orig: 500.0	new: 700.0: Successful
+Deposit 1000.0 To: 1111 orig: 800.0	new: 1800.0: Successful
+Transfer 200.0 From: 1111 orig: 1800.0	To: 1113 orig: 700.0 From new: 1600.0 To new: 900.0 Successful 
+Transfer 200.0 From: 1111 orig: 1600.0	To: 1112 orig: 200.0 From new: 1400.0 To new: 400.0 Successful 
+Transfer 100.0 From: 1113 orig: 900.0	To: 1112 orig: 400.0 From new: 799.0 To new: 500.0 Successful 
+Withdraw 500.0 From: 1113 orig: 799.0	new: 298.0: Successful
+Withdraw 500.0 From: 1113 orig: 298.0	new: -203.0: Successful
+Withdraw 500.0 From: 1111 orig: 1400.0	new: 899.5: Successful
+Withdraw 100.0 From: 1112 orig: 500.0	new: 399.5: Successful
+Withdraw 500.0 From: 1112 orig: 399.5	new: 399.5: Rejected
+Withdraw 399.5 From: 1112 orig: 399.5	new: 399.5: Rejected
+Transfer 500.0 From: 1112 orig: 399.5	To: 1113 orig: -203.0 From new: 399.5 To new: -203.0 Rejected 
+Transfer 500.0 From: 1112 orig: 399.5	To: 1113 orig: -203.0 From new: 399.5 To new: -203.0 Rejected 
+Withdraw 750.0 From: 1114 orig: 2500.0	new: 1749.0: Successful
+Withdraw 500.0 From: 1114 orig: 1749.0	new: 1248.0: Successful
+Deposit 500.0 To: 1114 orig: 1248.0	new: 1748.0: Successful
+Withdraw 100.0 From: 1115 orig: 1000.0	new: 900.0: Successful
+Withdraw 100.0 From: 1115 orig: 900.0	new: 800.0: Successful
+Deposit 200.0 To: 1115 orig: 800.0	new: 1000.0: Successful
+Transfer 300.0 From: 1114 orig: 1748.0	To: 1111 orig: 899.5 From new: 1748.0 To new: 899.5 Rejected 
+Transfer 200.0 From: 1111 orig: 899.5	To: 1114 orig: 1748.0 From new: 899.5 To new: 1748.0 Rejected 
+Interest: 1111 : 1111 orig: 899.5	new: 899.616935: Successful
+Interest: 1111 : 1112 orig: 399.5	new: 399.551935: Successful
+Interest: 1111 : 1113 orig: -203.0	new: -203.03654: Successful
+Interest: 1111 : 1114 orig: 1748.0	new: 1748.2622: Successful
+Interest: 1111 : 1115 orig: 1000.0	new: 1000.13: Successful

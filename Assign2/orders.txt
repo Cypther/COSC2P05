@@ -1,0 +1,21 @@
+Date: 28/02/16
+Time: 5:29 PM
+Integer: 1
+String: 12-34-56
+Integer: 1
+Text: 1812 Sir Isaac Brock Way St. Catharines, Ontario L2S 3A1
+
+Date: 28/03/16
+Time: 10:00 AM
+Integer: 2
+String: 11-12-33
+Integer: 2
+Text: 6678 Royal Manor Drive St. Catharines, Ontario LG2 4C8
+
+Date: 12/25/16
+Time: 11:00 PM
+Integer: 3
+String: 44-24-23
+Integer: 3
+Text: Tracey Road St. Catharines, Ontario LG2 4W9
+
